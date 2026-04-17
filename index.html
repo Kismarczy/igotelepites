@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>iGO telepítése WinCE-s gépekre</title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <link rel="icon" type="image/png" href="satellite.png">
+</head>
+<body>
+    <div class="gps-box">
+    <h1>Sziasztok!</h1>
+    <p>Ezzel a kis 'útmutatóval' szeretnék segíteni azoknak, akik nehezen tudnak felrakni iGO-t (iGO8, iGO Primo, iGO Amigo, stb...) különböző WinCE-s gépekre, márkától függetlenül.</p>
+    <h1>AZ ELSŐ ÉS LEGFONTOSABB LÉPÉS!: Csatlakoztasd a GPS-t a PC-dhez, laptopodhoz egy Mini-USB - USB-A kábellel!</h1><img src="cable.avif" alt="Ilyennel kell csatlakoztatni." title="Ilyennel kell csatlakoztatni "width="150" height="150">
+    <ul>
+    <h2>Amiket érdemes tudni:</h2>
+        <li>Mindegyik GPS, amiben kis SD kártya (Micro SD kártya) foglalat van, azok MAXIMUM 32gb-os kártyát ismernek fel!</li>
+        <li>Régebbi GPS-nél, amiben rendes (sima, nagy SD) foglalat van, azok MAXIMUM 2gb-os kártyát ismernek fel! És nem fog működni Micro SD kártya átalakítóval!!</li>
+    </ul>
+    <h2>Kezdjük márkás gépekkel:</h2>
+    <ul>
+        <h2>Mio:</h2>
+            <p>Moov széria: Miután felismerte a gép, keresd meg a 'MioMap' mappát, csinálj róla egy BIZTONSÁGI MENTÉST, és utána MINDENT törölj belőle! Ezután másold fel a belső tárhelyre az iGO-t a 'MioMap' mappába (DE NE AZ iGO MAPPÁT, HANEM A BENNE LÉVŐ FÁJLOKAT!), és az iGO.exe fájlt átnevezed SmartST_CE-re. Jobb klikk a .exe fájlon --> átnevezés --> Enter. (Így kell kinéznie a fájlnak: SmartST_CE.exe)</p>
+            <p>Spirit széria: Itt is működik a belső tárhelyes megoldás, de SD kártyáról egyszerűbb. Egy 8gb-os elég lesz.</p>
+                <p>Így kell kinéznie a kártyának: Formázd meg FAT32-re. Jobb klikk a kártyára az 'Ez a gép menüben', formázás, fájlrendszer: FAT32.</p>
+                <p>Utána: Kétszer bal klikk, aztán jobb klikk a kártyán: Új --> Új mappa --> Nevezd át: default --> Enter. Lépj bele a mappába, és másold be az iGO fájljait (DE NE AZ iGO MAPPÁT, HANEM A BENNE LÉVŐ FÁJLOKAT!). Ha ez megvan, nevezd át az iGO.exe fájlt auto-ra. Jobb klikk a .exe fájlon --> átnevezés --> Enter. (Így kell kinéznie a fájlnak: auto.exe)</p>
+
+        <p><h2>Becker:</h2> <p>Régebbi Beckereknél (pl.: Traffic Assist Highspeed) SD kártyáról ment az iGO. Új/újabb modelleknél már belső tárhelyről.</p></p>
+            <p>A belső tárhelyen: Új --> Új mappa --> Nevezd át: MobileNavigator --> Enter. Lépj bele a mappába, és másold bele az iGO fájljait (DE NE AZ iGO MAPPÁT, HANEM A BENNE LÉVŐ FÁJLOKAT!). Ha ez megvan, nevezd át az iGO.exe fájlt MobileNavigator-ra. Jobb klikk a .exe fájlon --> átnevezés --> Enter. (Így kell kinéznie a fájlnak: MobileNavigator.exe)</p>
+        <p>    </p>
+        <h2>Navon:</h2> <p>Majdnem az összes Navonon belső tárhelyről ment/megy az iGO.</p>
+            <p>A belső tárhelyen: Új --> Új mappa --> Nevezd át: MobileNavigator, vagy NNGStart --> Enter. Lépj bele a mappába, és másold bele az iGO fájljait (DE NE AZ iGO MAPPÁT, HANEM A BENNE LÉVŐ FÁJLOKAT!). Ha ez megvan, nevezd át az iGO.exe fájlt MobileNavigator-ra, vagy NNGStart.exe-re. Jobb klikk az .exe fájlon --> átnevezés --> Enter. (Így kell kinéznie a fájlnak: MobileNavigator.exe, vagy NNGStart.exe).</p>
+
+        <p><h2>WayteQ:</h2> <p>Itt is szinte mindig belső tárhelyről ment az iGO.</p></p>
+            <p>A belső tárhelyen: Csak szimplán másold bele az egész iGO mappát. Itt általában beállítható az útvonal a menüben, de ha nem, akkor:</p>
+                                                                                                                            <p>Új --> Új mappa --> MobileNavigator --> Enter. Lépj bele a mappába, és másold bele az iGO fájljait (DE NE AZ iGO MAPPÁT, HANEM A BENNE LÉVŐ FÁJLOKAT!). Ha ez megvan, nevezd át az iGO.exe fájlt MobileNavigator-ra. Jobb klikk az .exe fájlon --> átnevezés --> Enter. (Így kell kinéznie a fájlnak: MobileNavigator.exe)</p>
+    </ul>
+    <h2>Kínai gépek:</h2>
+    <ul>
+    <p>Itt MINDIG a belső tárhelyről megy az iGO. Itt is csak simán bemásolod az iGO mappát a belső tárhelyre. A kínai GPS-eknél is általában beállítható az útvonal a menüben, de ha nem, akkor:</p>
+    </ul><p>Új --> Új mappa --> Nevezd át: MobileNavigator. Lépj bele a mappába, és másold bele az iGO fájljait (DE NE AZ iGO MAPPÁT, HANEM A BENNE LÉVŐ FÁJLOKAT!). Ha ez megvan, akkor nevezd át az iGO.exe fájlt MobileNavigator. Jobb klikk az .exe fájlon --> átnevezés --> Enter. (Így kell kinéznie a fájlnak: MobileNavigator.exe)</p>
+    
+    <h2>Egyéb megoldások SD kártyával</h2>
+
+    <p>Természetesen az is megoldható, hogy az iGO belső tárhelyről megy, és SD kártyán vannak a térképek, POI-k, stb...
+        Ez úgy oldható meg, hogy: SD kártyán --> Új --> Új mappa --> nevezd át: content --> Enter.<br> Vagy: --> Új --> Új mappa --> nevezd át: iGO --> Enter. Lépj bele a mappába: --> Új --> Új mappa --> nevezd át: content. Utána lépj bele a mappába, és másold bele ezeket a MAPPÁKAT: map/MAP, poi/POI, speedcam/SPEEDCAM.<br> Utána csatlakoztasd a GPS-eszt a gépedhez, és keresd meg azt a mappát, amelyikben az iGO van (pl.: MobileNavigator).<br> Ott keresd meg a sys.txt/SYS.txt fájl, és nyisd meg. Keresd meg a [folders] rész, törölj ki alóla mindent, és írd be ezt: <br>
+has_secondary_root=1<br>
+content="\SDMMC\iGO\content" <br><br> A másolás természetesen attól függ, hogy ebből mi van neked. Nem kötelező mindent átmásolni a felsoroltak közül, de a map/MAP mappát KÖTELEZŐ felrakni!!
+    </p>
+
+    <h2>Ha esetleg nem lenne meg az iGO8, iGO Primo, térképek, akkor innen le tudod tölteni őket:</h2>
+    <p>
+        <a href="https://drive.google.com/drive/folders/1-u0Wk0v-77HzyVaMU60oVxZ5MRR-V0iP?usp=drive_link" style="color: white" target="_blank">iGO8</a> (149mb)<br><br>
+        <a href="https://drive.google.com/drive/folders/10AHfaPwFGW_v153su_jm6I0dzTHGcWy3?usp=drive_link" style="color: white" target="_blank">iGO Primo</a> (230mb)<br><br>
+        <a href="https://drive.google.com/drive/folders/1bAEcnuBsTVUYCWMebwGja9lUxYnf55on?usp=drive_link" style="color: white" target="_blank">iGO Primo 1.2 (ez régebbi változat, gyengébb gépekre jó, ha modernebb szoftver szeretnél)</a> (218mb)<br><br>
+        <a href="https://drive.google.com/drive/folders/1hAc-2lrlAdId50lm-7SQTBDoaHANj5j2?usp=drive_link" style="color: white" target="_blank">Térkép, legújabb 2025-ös TELJES Európa</a> (5,2gb)
+    </p>
+    <video width="250" height="250" controls>
+        <source src="1.mp4" type="video/mp4">
+    </video>
+
+    <p text align="center">Készítette: Kismárton Ákos<br>
+        2026, minden jog fenntartva! ©
+    </p>
+    
+    
+</body>
+</html>

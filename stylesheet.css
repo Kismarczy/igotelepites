@@ -1,0 +1,38 @@
+body {
+    background-color: blue;
+}
+h1{
+    color:white
+}
+h2{
+    color:pink
+}
+p{
+    color:aqua
+}
+li{
+    color:aqua
+}
+
+
+
+
+
+@media screen and (max-width: 600px) {
+  body {
+     
+    padding: 10px;
+  }
+  
+  h1 {
+    font-size: 24px; 
+  }
+}
+
+.gps-box {
+    border: 1px solid aqua;
+    border-radius: 10px;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.5); 
+}
